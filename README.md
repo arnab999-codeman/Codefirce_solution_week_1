@@ -2,7 +2,7 @@
 My beginner journey of solving HackerRank problems.
 
 #	Problem	Solution
-
+https://github.com/arnab999-codeman/Codefirce_solution_week_1/blob/main/Welcome%20for%20you%20with%20Conditions%20%0A
 
 
 Progress
