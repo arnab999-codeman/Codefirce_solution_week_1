@@ -1,1 +1,1 @@
-# Codefirce_solution_week_1
+# Codeforce_solution_week_1
