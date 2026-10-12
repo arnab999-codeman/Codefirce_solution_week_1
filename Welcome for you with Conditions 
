@@ -1,0 +1,168 @@
+1.problem link: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I
+
+Code:
+#include<stdio.h>
+int main()
+{
+    int A,B;
+    scanf("%d %d",&A,&B);
+    if(A>=B)
+    {
+        printf("Yes");
+    }
+    else
+    {
+        
+        printf("No");
+    }
+    return 0;
+}
+
+
+
+
+2.Problem link: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
+
+Code:
+
+#include<stdio.h>
+int main()
+{
+    int A,B;
+    scanf("%d %d",&A,&B);
+    if(A%B==0||B%A==0)
+    {
+        printf("Multiples");
+    }
+    else
+    {
+        printf("No Multiples");
+    }
+    return 0;
+}
+
+
+
+
+3.Problem Link: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P
+
+Code:
+#include<stdio.h>
+int main()
+{
+    int X;
+    scanf("%d",&X);
+    int rem=X/1000;
+     
+
+
+         if(rem%2==0)
+    {
+
+        printf("EVEN");
+        
+    }
+    else
+    {
+        printf("ODD");
+    }
+    
+
+    return 0;
+}
+
+
+
+
+
+4.Problem Link:https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N
+
+Code:
+#include<stdio.h>
+int main()
+{
+    char X;
+    scanf("%c",&X);
+
+    if(X>='a'&&X<='z')
+    {
+        printf("%c",X-32);
+    }
+    else if(X>='A'&&X<='Z')
+    {
+        printf("%c",X+32);
+    }
+    else
+    {
+
+    }
+    return 0;
+
+}
+
+
+
+
+
+5.Problem Link:https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M
+
+Code:
+#include<stdio.h>
+int main()
+{
+    char X;
+    scanf("%c",&X);
+    if(X>=48&&X<=57)
+    {
+        printf("IS DIGIT");
+    }
+    else if(X>=65&&X<=90)
+    {
+        printf("ALPHA\nIS CAPITAL");
+    }
+    else if(X>=97&&X<=122)
+    {
+        printf("ALPHA\nIS SMALL");
+
+    }
+    return 0;
+}
+
+
+
+
+
+6.Problem Link:https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
+
+Code:
+#include<stdio.h>
+int main()
+{
+    int A,B,C;
+    scanf("%d %d %d",&A,&B,&C);
+    if(A<=B&&A<=C)
+    {
+        printf("%d ",A);
+    }
+    else if (B<=A&&B<=C)
+    {
+        printf("%d ",B);
+    }
+        else if (C<=A&&C<=B)
+    {
+        printf("%d ",C);
+    }
+    if(A>=B&&A>=C)
+    {
+        printf("%d",A);
+    }
+    else if (B>=A&&B>=C)
+    {
+        printf("%d",B);
+    }
+        else if (C>=A&&C>=B)
+    {
+        printf("%d",C);
+    }
+    return 0;
+}
